@@ -1,0 +1,51 @@
+.header {
+  background-color: #1d1d1d;
+  height: 3.5rem;
+  position: absolute;
+  width: 100%;
+  z-index: 100;
+
+  .nav-wrapper {
+    height: 100%;
+
+    .brand-logo {
+      height: 100%;
+      position: relative;
+      left: 3%;
+      margin: 0;
+      top: 25%;
+    }
+
+    .nav-list {
+      float: right;
+      position: relative;
+      right: 3%;
+      top: 25%;
+    }
+
+    a {
+      color: white;
+    }
+
+    ul li {
+      display: inline;
+      font-family: Roboto;
+      font-weight: 300;
+      height: 100%;
+      list-style-type: none;
+      position: relative;
+
+      a {
+        padding: 1.2rem;
+
+        &.active {
+          background-color: #424650;
+        }
+
+        &:hover {
+          background-color: #424650;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,168 @@
+.resume {
+  background-color: #1E2025;
+
+  .resume-container {
+    background-color: #ECF0F1;
+    margin: 6rem auto;
+    min-width: 950px;
+  }
+
+  .res-left {
+    padding: 0.7rem 3rem;
+    border-right: 1px solid #34495e;
+  }
+
+  .res-right {
+    padding: 0.7rem 1rem;
+  }
+  
+  .title {
+    color: #34495e;
+    text-align: center; 
+  }
+
+  .subtitle {
+    color: #34495e;
+    font-size: 1.3rem;
+    font-weight: 300;
+    padding-bottom: 0.5rem;
+    text-align: center;
+  }
+
+  .header {
+    background-color: #2c3e50;
+    height: 9.5rem;
+    padding-left: 3rem;
+    position: relative;
+    width: 103.5%;
+    
+    h1 { 
+      color: white;
+      font-size: 3.8rem; 
+      margin: 0;
+      padding-top: 2rem;
+    }
+    ul {
+      color: white; 
+      margin: 1.5rem 0; 
+    }
+  }
+
+  .work-exp-item {
+    .work-timestamp {
+      color: rgba(52, 73, 94, 0.85);
+      font-size: 0.9rem;
+      text-align: right;
+    }
+
+    h6 { 
+      color: #34495e; 
+      line-height: 1.3rem;
+      font-weight: 600;
+      margin: 0;
+    }
+    ul li {
+      font-weight: 300;
+      line-height: 1.3rem;
+    }
+  }
+
+  ul.personal-info-list {
+    li {
+      font-weight: 300;
+      list-style-type: none;
+
+      i {
+        text-align: center;
+        width: 1.5rem;
+      }
+    }
+  }
+
+  ul.tech-skill-list {
+    h5 {
+      color: #34495e;
+    }
+    li {
+      font-size: 0.9rem;
+      font-weight: 300;
+      left: 2.5rem;
+      line-height: 1.3rem;
+
+      i {
+        line-height: 1.1rem;
+      }
+    }
+  }
+
+  ul.inter-skill-list {
+    li {
+      font-weight: 300;
+      font-size: 0.9rem;
+      line-height: 1.3rem;
+    }
+  }
+
+  .technical-skills {
+    border-bottom: 1px solid #34495e;
+  }
+
+  .interpersonal-skills {
+    border-bottom: 1px solid #34495e;
+    padding-top: 0.7rem;
+  }
+
+  .education {
+    padding-top: 0.8rem;
+
+    h6 {
+      color: #34495e;
+      margin: 0;
+    }
+
+    p {
+      color: #34495e;
+      font-weight: 300;
+      font-size: 0.9rem;
+      margin: 0;
+      line-height: 1.3rem;
+      padding: 0.5rem 0;
+    }
+  }
+
+  .project-item {
+    border: 1px solid #34495e;
+    height: 14rem;
+    padding: 0 0.5rem;
+    width: 10.5rem;
+
+    h6, a, p { 
+      color: #34495e;
+    }
+
+    h6 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      text-align: center;
+    }
+
+    p {
+      font-weight: 300;
+      line-height: 1.2rem;
+    }
+  }
+
+  .awards {
+    padding-top: 1rem;
+    p {
+      font-size: 0.9rem;
+      font-weight: 300;
+      padding: 1rem;
+      text-align: justify;
+    }
+    h6 {
+      color: #34495e;
+      margin: 0;
+    }
+  }
+}

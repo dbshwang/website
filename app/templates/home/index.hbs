@@ -1,0 +1,161 @@
+<div class='home'>
+  <section class='home-hero'>
+    <div class='overlay ov-home'></div>
+    <div class='overlay-text'>
+      <div class='name text-center'>DANIEL <span>HWANG</span></div>
+      <hr>
+      <div class='occupation'>2B Computer Engineering Student</div>
+      <div class='occupation'>University of Waterloo</div>
+    </div>
+  </section>
+
+  <div class='layout-container'>
+    <section class='about-me'>
+      <div class='row'>
+        <div class='columns small-12 medium-5 text-center'>
+          {{!-- <img src={{currentImg}} alt='Daniel Hwang'/> --}}
+          <div class='me'></div>
+        </div>
+        <div class='columns small-12 medium-7'>
+          <div class='row'>
+            <div class='columns small-12'>
+              <div class='about-me-title'>Who am I?</div>
+              <div class='about-me-text'>
+                Hey! My name is Daniel Hwang and I'm currently a student at the University of Waterloo. I'm very passionate about all kinds of software development and am always looking to learn new things. I've also recently become very keen on learning UI/UX design. When I'm not crammed with school work I usually spend my time coding, playing soccer and binge watching Netflix. Below, you'll find some small projects I've worked on and gain a bit of insight at the experiences I've had during my co-op placements.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <section class='work-hero'>
+    <div class='overlay ov-work'></div>
+    <div class='overlay-text text-center'>
+      WORK EXPERIENCE
+    </div>  
+  </section>
+  <div class='layout-container'>
+    <section class='work'>
+      <div class='row'>
+        <div class='columns small-12 medium-10 medium-centered'>
+          <ul class='collapsible popout' data-collapsible='expandable'>
+            <li {{action 'showExpand'}} class='work-exp-item'>
+              <div class='collapsible-header'>
+                <div class='work-logo bid'>
+                  <img src='/images/bidvine-logo.png' alt='Bidvine' />
+                </div>
+                <div class='work-name'>Bidvine Limited</div>
+                <div class='work-title'>Front-End Developer</div>
+              </div>
+              <div class='collapsible-body'>
+                <div class='work-experience'>
+                  My third co-op term was my first professional developing job. Bidvine was a completely new company that released their web product nearly 3-4 months before I joined. The entire development team consisted of five people (three of which were co-ops) and therefore I had the opportunity to be entrusted with a lot of responsibilities. I learned to use several new web technologies such as Ember.js, Ember-Cli, CoffeScript, Handlebars, Sass, Foundation, Emblem, Invision, and Jira. Since they were moving the entire platform to use Ember.js, I've worked on the front-end of the whole Bidvine platform and built the release of their first internally developed product.
+                </div>
+              </div>
+            </li>
+            <li {{action 'showExpand'}} class='work-exp-item'>
+              <div class='collapsible-header'>
+                <div class='work-logo kik'>
+                  <img src='/images/kik-logo.png' alt='Kik' />
+                </div>
+                <div class='work-name'>Kik Interactive</div>
+                <div class='work-title'>Release &amp; QA Engineer</div>
+              </div>
+              <div class='collapsible-body'>
+                <div class='work-experience'>
+                  My second co-op term was spent at Kik and this was when they were still considered a start-up company. They provided a lot of perks to all the employees and the work environment was great. I was tasked with leading blackbox tests for several new features such as the Kik gallery, public/private hashtag groups, new user profiles, muting and deleting chats, and search functionality. I've also held a user testing session where we brought people in to play around with the new features and give us their feedback. This job was a great learning opportunity and I have become a real fan of start-ups because of how impactful your work is to the success of the company.
+                </div>
+              </div>
+            </li>
+            <li {{action 'showExpand'}} class='work-exp-item'>
+              <div class='collapsible-header'>
+                <div class='work-logo int'>
+                  <img src='/images/intrafinity-logo.png' alt='Intrafinity' />
+                </div>
+                <div class='work-name'>Intrafinity</div>
+                <div class='work-title'>Web Analyst</div>
+              </div>
+              <div class='collapsible-body'>
+                <div class='work-experience'>
+                  My first ever co-op placement occurred at Intrafinity. Although it was not a very technically demanding job, I had the chance to learn about company structure and how they generally operate. I spent most of my time performing data migration between different websites and that's when I was initially exposed to web development. Since then, I have taken it upon myself to learn web development on my spare time and got into building basic projects.
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </div>
+    
+  <section class='project-hero'>
+    <div class='overlay ov-project'></div>
+    <div class='overlay-text text-center'>
+      PROJECTS
+    </div>
+  </section>
+  <div class='dark-bg'>
+    <div class='layout-container'>
+      <section class='projects'>
+        <div class='row'>
+          <div class='columns small-12 medium-6'>
+            <div class='project-item'>
+              <div class='project-item-hero project-1'>
+                <div class='project-overlay'></div>
+                <div class='project-item-name' style='line-height:3rem'>
+                  Pixel Perfect <br/> Piece of Pizza
+                </div>
+              </div>
+              <div class='project-item-desc'>
+                Pixel Perfect Piece of Pizza was developed at a Kik Hackathon. It is a web application built for users on Kik Messenger to order pizza by texting a bot. Although pizza companies will not actually receive the placed orders (at the moment), this project was proof of concept that the bots on Kik's native client have the potential to provide many unique services. You can fool around with the bot <a href='http://pixelperfectpieceofpizza.com/' target='_blank'>here.</a>
+              </div>
+            </div>
+          </div>
+          <div class='columns small-12 medium-6'>
+            <div class='project-item'>
+              <div class='project-item-hero project-2'>
+                <div class='project-overlay'></div>
+                <div class='project-item-name'>
+                  KikTag
+                </div>
+              </div>
+              <div class='project-item-desc'>
+                KikTag was developed during the company's internal hackathon. It is a Kik-optimized HTML5 web application that allows users on Kik to promote their public group hashtag with a short description onto a live feed. Users who have been part of the group chat are also able to rate the group from 1-5. This allows users to conveniently find other people to talk to who share similar interests. Live version unavailable right now :(
+              </div>
+            </div>          
+          </div>
+          <div class='columns small-12 medium-6'>
+            <div class='project-item'>
+              <div class='project-item-hero lower project-3'>
+                <div class='project-overlay'></div>
+                <div class='project-item-name'>
+                  HMPC Website
+                </div>
+              </div>
+              <div class='project-item-desc'>
+                HMPC is a small church community that is trying to grow. The static website that is being created is simply a means of allowing current members to stay informed about recent events and for potential new members to get a feel for what the congregation is like.
+              </div>
+            </div>
+          </div>
+          <div class='columns small-12 medium-6'>
+            <div class='project-item'>
+              <div class='project-item-hero lower project-4'>
+                <div class='project-overlay'></div>
+                <div class='project-item-name'>
+                  FlashLine
+                </div>
+              </div>
+              <div class='project-item-desc'>
+                FlashLine is a personal project I've been working on in my spare time. It is a web application that allows users to create a personal timeline of memorable events that occurred in their life. It is awaiting release on my personal website within 3 months.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+
+
+</div>

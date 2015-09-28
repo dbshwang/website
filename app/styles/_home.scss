@@ -1,0 +1,214 @@
+.home {
+  background: url('/images/gplaypattern.png');
+
+  .layout-container {
+    margin: 0 auto;
+    max-width: 1024px;
+  }
+
+  .overlay {
+    background-color: black;
+    height: 100%;
+    position: relative;
+    &.ov-home { opacity: 0.7; }
+    &.ov-project { opacity: 0.5; }
+    &.ov-work { opacity: 0.4 }
+  }
+
+  .home-hero {
+    background: url('/images/home-hero-min.jpg');
+    // background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    .overlay-text {
+      color: white;
+      font-family: Lato;
+      left: 50%;
+      position: absolute;
+      text-align: center;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      .name {
+        border: 1px solid white;
+        font-size: 3rem;
+        font-weight: 200;
+        padding: 2.5rem 1.5rem;
+        width: 26rem;
+        span { font-weight: 300; }
+      }
+      .occupation {
+        font-size: 1.7rem;
+        font-weight: 200;
+      }
+    }
+  }
+
+  .work-hero {
+    background: url('/images/work1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    .overlay-text {
+      border: 1px solid white;
+      color: white;
+      font-family: Lato;
+      font-size: 2.5rem;
+      font-weight: 200;
+      left: 50%;
+      padding: 3rem;
+      position: relative;
+      top: -50%;
+      transform: translate(-50%, -50%);
+      width: 30rem;
+    }
+  }
+
+  .project-hero {
+    background: url('/images/project-hero-blur.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    .overlay-text {
+      color: white;
+      font-family: Lato;
+      font-weight: 200;
+      left: 50%;
+      position: relative;
+      top: -50%;
+      transform: translate(-50%, -50%);
+      width: 25rem;
+      border: 1px solid white;
+      font-size: 2.5rem;
+      padding: 3rem;
+    }
+  }
+
+  .about-me {
+    font-family: Lato;
+    padding: 3rem 0 4rem 0;
+    .me {
+      background-image: url('/images/dan_normal_crop.jpg');
+      background-size: cover;
+      border: 0.3rem solid #393E46;
+      border-radius: 50%;
+      height: 19rem;
+      position: relative;
+      top: 1.5rem;
+      transition: 0.2s cubic-bezier(0.4, 0, 1, 1);
+      width: 20rem;
+      &:hover {
+        background-image: url('/images/dan_crazy2.jpg');
+        background-size: cover;
+      }
+    }
+    .about-me-title {
+      font-size: 2.5rem;
+    }
+    .about-me-text {
+      font-size: 1.3rem;
+      font-weight: 300;
+      padding-right: 1rem;
+      text-align: justify;
+    }
+  } 
+
+  .work {
+    margin: 2rem 0;
+    .work-exp-item {
+      color: #33425B;
+      font-family: Roboto;
+      text-align: center;
+      .work-logo {
+        img { height: 5rem; }
+        &.bid { img { margin: 1rem 0; } }
+        &.kik { img { height: 7rem; } }
+        &.int { img { margin-top: 1rem; } }
+      }
+      .work-name {
+        font-size: 2.5rem;
+        font-weight: 500;
+        line-height: 1.5rem;
+        opacity: 0.7;
+        padding-top: 1rem;
+      }
+      .work-title {
+        font-size: 1.5rem;
+        font-weight: 100;
+      }
+      .work-experience {
+        padding: 0 7rem 3rem 7rem;
+        text-align: justify;
+      }
+    }
+  }
+  
+  .dark-bg {
+    background: url('/images/sdashpattern.png');
+  }
+  .projects {
+    .project-item {
+      background-color: white;
+      height: 32rem;
+      margin: 3rem auto 4rem auto;
+      overflow: hidden;
+      width: 25rem;
+      .project-item-hero {
+        height: 100%;
+        position: relative;
+        transition: 0.5s ease;
+        z-index: 0;
+        &.project-1 {
+          background: url('/images/project1.png');
+          background-size: cover;
+        }
+        &.project-2 {
+          background: url('/images/project2.png');
+          background-size: cover;
+        }
+        &.project-3 {
+          background: url('/images/project.jpg');
+          background-size: cover;
+        }
+        &.project-4 {
+          background: url('/images/project3.jpg');
+          background-size: cover;
+        }
+      }
+      .project-overlay {
+        background-color: black;
+        height: 100%;
+        position: absolute;
+        width: 100%;
+        opacity: 0.6;
+        z-index: -1;
+      }
+      .project-item-name {
+        border: 1px solid white;
+        color: white;
+        font-family: Lato;
+        font-size: 2rem;
+        font-weight: 200;
+        left: 50%;
+        line-height: 6rem;
+        padding: 1rem 0;
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        width: 20rem;
+      }
+      .project-item-desc {
+        padding: 2rem 3rem;
+        text-align: justify;
+      }
+      &:hover {
+        .project-item-hero {
+          &.lower { height: 15rem; } 
+          height: 12rem;
+        }
+      }
+    }
+  } 
+}
